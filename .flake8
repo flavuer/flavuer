@@ -1,0 +1,12 @@
+[flake8]
+
+select = E,S,F
+
+ignore = E302,E305
+
+exclude =
+  dist,
+  flavuer/template/venv
+
+per-file-ignores =
+  tests/*: S
